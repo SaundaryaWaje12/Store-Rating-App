@@ -40,7 +40,8 @@ This web application allows users to rate stores registered on the platform. It 
     -   Can view details of all users (including Rating if the user is a Store Owner).
     -   Can log out.
 
-    ![Admin Dashboard]([https://github.com/harshal20m/Store-Rating-App/blob/main/images/AdminDash.png?raw=true])
+   ![Admin Dashboard](https://github.com/harshal20m/Store-Rating-App/blob/main/images/AdminDash.png?raw=true)
+
 
 2.  **Normal User:**
 
@@ -64,7 +65,7 @@ This web application allows users to rate stores registered on the platform. It 
     -   Can see the average rating of their store.
     -   Can log out.
 
-    ![Store Owner Dashboard]([https://github.com/harshal20m/Store-Rating-App/blob/main/images/StoreDash.png?raw=true])
+    ![Store Owner Dashboard](https://github.com/harshal20m/Store-Rating-App/blob/main/images/StoreDash.png?raw=true)
 
 ## Functionalities
 
