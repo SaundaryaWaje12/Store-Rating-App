@@ -54,10 +54,11 @@ This web application allows users to rate stores registered on the platform. It 
     -   Can modify their submitted rating.
     -   Can log out.
 
-    ![Store Listing Example]([Insert Store Listing Image URL Here])
-    ![Signup Form Example]([Insert User Signup Form Image URL Here])
+    ![Store Listing](https://github.com/harshal20m/Store-Rating-App/blob/main/images/StoreRatings.png?raw=true)
+    ![Login Form](https://github.com/harshal20m/Store-Rating-App/blob/main/images/Login.png?raw=true)
+    ![Signup Form](https://github.com/harshal20m/Store-Rating-App/blob/main/images/Register.png?raw=true)
 
-3.  **Store Owner:**
+4.  **Store Owner:**
 
     -   Can log in.
     -   Can update their password.
