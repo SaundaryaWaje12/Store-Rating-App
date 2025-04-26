@@ -1,0 +1,47 @@
+-- Use the database
+USE store_rating_system;
+
+-- Insert admin user (password: Admin@123)
+INSERT INTO users (name, email, password, role) VALUES 
+('Harshal Mali', 'Harshal@gmail.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', 'admin');
+
+-- Insert store owners
+INSERT INTO users (name, email, password, role, address) VALUES 
+('Michael Thompson', 'owner1@example.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', 'store_owner', '123 Main Street, Anytown, USA 12345'),
+('Elizabeth Johnson', 'owner2@example.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', 'store_owner', '456 Oak Avenue, Somewhere City, USA 67890');
+
+-- Insert regular users
+INSERT INTO users (name, email, password, address) VALUES 
+('Christopher Wilson', 'user1@example.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', '789 Pine Road, Another Place, USA 23456'),
+('Stephanie Garcia', 'user2@example.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', '101 Cedar Lane, Different Town, USA 34567'),
+('Alexander Martinez', 'user3@example.com', '$2a$10$4tsvJGHbZXICgc9e1K5PbO9kttNz6HhOResOiNRxokBTi1oRNlwkW', '202 Maple Court, Somewhere Else, USA 45678');
+
+-- Insert stores
+INSERT INTO stores (name, email, address, user_id) VALUES 
+('Electronic Store With Twenty Characters Name', 'electronics@example.com', '1010 Tech Boulevard, Gadget City, USA 56789', 2),
+('Grocery Store With Twenty Or More Characters', 'grocery@example.com', '2020 Food Street, Fresh Town, USA 67890', 3),
+('Clothing Store With Twenty Characters Or More', 'clothing@example.com', '3030 Fashion Avenue, Style City, USA 78901', NULL),
+('Bookstore With Twenty Characters Or More Name', 'books@example.com', '4040 Literary Lane, Knowledge Town, USA 89012', NULL);
+
+-- Insert ratings
+-- Store 1 ratings
+INSERT INTO ratings (user_id, store_id, rating) VALUES 
+(4, 1, 5),
+(5, 1, 4),
+(6, 1, 5);
+
+-- Store 2 ratings
+INSERT INTO ratings (user_id, store_id, rating) VALUES 
+(4, 2, 3),
+(5, 2, 4),
+(6, 2, 2);
+
+-- Store 3 ratings
+INSERT INTO ratings (user_id, store_id, rating) VALUES 
+(4, 3, 5),
+(5, 3, 3);
+
+-- Store 4 ratings
+INSERT INTO ratings (user_id, store_id, rating) VALUES 
+(4, 4, 4),
+(6, 4, 5);
