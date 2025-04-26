@@ -41,7 +41,8 @@ This web application allows users to rate stores registered on the platform. It 
     -   Can log out.
 
    ![Admin Dashboard](https://github.com/harshal20m/Store-Rating-App/blob/main/images/AdminDash.png?raw=true)
-
+   ![Admin users](https://github.com/harshal20m/Store-Rating-App/blob/main/images/Users.png?raw=true)
+   ![Admin users2](https://github.com/harshal20m/Store-Rating-App/blob/main/images/UserSideBar.png?raw=true)
 
 2.  **Normal User:**
 
