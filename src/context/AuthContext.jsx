@@ -19,7 +19,13 @@ export const AuthProvider = ({ children }) => {
 				if (token) {
 					axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
 					const response = await axios.get(`${API_URL}/auth/me`);
-					setCurrentUser(response.data);
+					setCurrentUser({
+						...response.data,
+                        name: "Saundarya",
+                        role: "Developer"
+						});
+
+
 				}
 			} catch (error) {
 				console.error("Auth check failed:", error);
@@ -95,7 +101,7 @@ export const AuthProvider = ({ children }) => {
 		updatePassword,
 		isAdmin: currentUser?.role === "admin",
 		isStoreOwner: currentUser?.role === "store_owner",
-		isUser: currentUser?.role === "user",
+		isUser: currentUser?.role === "developer",
 	};
 
 	return <AuthContext.Provider value={value}>{!loading && children}</AuthContext.Provider>;

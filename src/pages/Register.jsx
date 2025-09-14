@@ -131,7 +131,7 @@ const Register = () => {
 					<label htmlFor="name" className="block text-sm font-medium text-gray-700">
 						Full Name
 					</label>
-					<div className="mt-1">
+					<div className="bg-gradient-to-r from-primary to-secondary text-white p-4 rounded-2xl shadow-lg">
 						<input
 							id="name"
 							name="name"

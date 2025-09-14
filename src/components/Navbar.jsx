@@ -13,7 +13,7 @@ const Navbar = ({ user, onLogout }) => {
       <div className="flex-1">
         <h1 className="text-2xl font-semibold text-gray-900">
           {user?.role === 'admin' ? 'Admin Dashboard' : 
-           user?.role === 'store_owner' ? 'Store Dashboard' : 'Store Ratings'}
+           user?.role === 'store_owner' ? 'Store Dashboard' : 'Customer reviews'}
         </h1>
       </div>
       

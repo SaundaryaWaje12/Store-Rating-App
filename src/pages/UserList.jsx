@@ -15,7 +15,7 @@ const UserList = () => {
 		email: "",
 		password: "",
 		address: "",
-		role: "user",
+		role: "Saundarya",
 	});
 	const [formErrors, setFormErrors] = useState({});
 	const [viewUser, setViewUser] = useState(null);

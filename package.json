@@ -17,12 +17,12 @@
 		"concurrently": "^8.2.2",
 		"cookie-parser": "^1.4.6",
 		"cors": "^2.8.5",
-		"dotenv": "^16.3.2",
+		"dotenv": "^16.6.1",
 		"express": "^4.18.2",
 		"express-validator": "^7.0.1",
 		"jsonwebtoken": "^9.0.2",
 		"lucide-react": "^0.344.0",
-		"mysql2": "^3.6.5",
+		"mysql2": "^3.14.5",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-router-dom": "^6.22.3"
@@ -43,5 +43,18 @@
 		"typescript": "^5.5.3",
 		"typescript-eslint": "^8.3.0",
 		"vite": "^5.4.2"
-	}
+	},
+	"description": "This web application allows users to rate stores registered on the platform. It features a role-based access control system, offering different functionalities to System Administrators, Normal Users, and Store Owners.",
+	"main": "eslint.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/harshal20m/Store-Rating-App.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/harshal20m/Store-Rating-App/issues"
+	},
+	"homepage": "https://github.com/harshal20m/Store-Rating-App#readme"
 }
